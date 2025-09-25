@@ -19,6 +19,66 @@ int main()
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
+    printf("==================== CADASTRO DA CARTA 1 ====================\n");
+
+    printf("Digite o ESTADO da primeira cata (A - H): ");
+    scanf("%c", &estado1);
+
+    printf("Digite o CÓDIGO da primeira carta (01 - 02): ");
+    scanf("%s", &codigo1);
+    getchar();
+
+    printf("Digite o NOME da cidade da primeira carta: ");
+    fgets(n_cidade1, 50, stdin);
+
+    printf("Digite a POPULAÇÃO da primeira carta: ");
+    scanf("%d", &populacao1);
+
+    printf("Digite a ÁREA da primeira carta: ");
+    scanf("%f", &area1);
+
+    d_populacional1 = populacao1 / area1;
+
+    printf("Digite o PIB da primeira carta: ");
+    scanf("%f", &pib1);
+
+    pib_pc1 = pib1 / populacao1;
+
+    printf("Digite o número de PONTOS TURÍSTICOS da primeira carta: ");
+    scanf("%d", &p_turisticos1);
+    getchar();
+
+    s_poder1 = populacao1 + area1 + pib1 + p_turisticos1 + pib_pc1 / d_populacional1;
+
+    printf("==================== CADASTRO DA CARTA 2 ====================\n");
+
+    printf("Digite o ESTADO da segunda cata (A - H): ");
+    scanf("%c", &estado2);
+
+    printf("Digite o CÓDIGO da segunda carta (01 - 02): ");
+    scanf("%s", &codigo2);
+    getchar();
+
+    printf("Digite o NOME da cidade da segunda carta: ");
+    fgets(n_cidade2, 50, stdin);
+
+    printf("Digite a POPULAÇÃO da segunda carta: ");
+    scanf("%d", &populacao2);
+
+    printf("Digite a ÁREA da segunda carta: ");
+    scanf("%f", &area2);
+
+    d_populacional2 = populacao2 / area2;
+
+    printf("Digite o PIB da segunda carta: ");
+    scanf("%f", &pib2);
+
+    pib_pc2 = pib2 / populacao2;
+
+    printf("Digite o número de PONTOS TURÍSTICOS da segunda carta: ");
+    scanf("%d", &p_turisticos2);
+
+    s_poder2 = populacao2 + area2 + pib2 + p_turisticos2 + pib_pc2 / d_populacional2;
 
     // Exemplo:
     // printf("Digite o código da cidade: ");

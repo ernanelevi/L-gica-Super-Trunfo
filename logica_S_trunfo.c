@@ -91,7 +91,51 @@ int main()
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
     printf("========== COMPARAÇÃO ==========\n");
 
-    printf("População: Carta %d venceu\n", (populacao1 > populacao2) + 1 - (populacao1 == populacao2));
+    if (populacao1 > populacao2)
+    {
+        printf("Carta 1 - %s (%c%s): %d\n", n_cidade1, estado1, codigo1, populacao1);
+    }
+    else
+    {
+        printf("Carta 2 - %s (%c%s): %d\n", n_cidade2, estado2, codigo2, populacao2);
+    }
+
+    if (area1 > area2)
+    {
+        printf("Carta 1 - %s (%c%s): %f\n", n_cidade1, estado1, codigo1, area1);
+    }
+    else
+    {
+        printf("Carta 2 - %s (%c%s): %f\n", n_cidade2, estado2, codigo2, area2);
+    }
+
+    if (pib1 > pib2)
+    {
+        printf("Carta 1 - %s (%c%s): %f\n", n_cidade1, estado1, codigo1, pib1);
+    }
+    else
+    {
+        printf("Carta 2 - %s (%c%s): %f\n", n_cidade2, estado2, codigo2, pib2);
+    }
+
+    if (d_populacional1 > d_populacional2)
+    {
+        printf("Carta 1 - %s (%c%s): %f\n", n_cidade1, estado1, codigo1, d_populacional1);
+    }
+    else
+    {
+        printf("Carta 2 - %s (%c%s): %f\n", n_cidade2, estado2, codigo2, d_populacional2);
+    }
+
+    if (pib_pc1 > pib_pc2)
+    {
+        printf("Carta 1 - %s (%c%s): %f\n", n_cidade1, estado1, codigo1, pib_pc1);
+    }
+    else
+    {
+        printf("Carta 2 - %s (%c%s): %f\n", n_cidade2, estado2, codigo2, pib_pc2);
+    }
+    /*printf("População: Carta %d venceu\n", (populacao1 > populacao2) + 1 - (populacao1 == populacao2));
 
     printf("Área: Carta %d venceu\n", (area1 > area2) + 1 - (area1 == area2));
 
@@ -103,7 +147,7 @@ int main()
 
     printf("PIB per Capita: Carta %d venceu\n", (pib_pc1 > pib_pc2) + 1 - (pib_pc1 == pib_pc2));
 
-    printf("Super Poder: Carta %d venceu\n", (s_poder1 > s_poder2) + 1 - (s_poder1 == s_poder2));
+    printf("Super Poder: Carta %d venceu\n", (s_poder1 > s_poder2) + 1 - (s_poder1 == s_poder2));*/
 
     // Exemplo:
     // if (populacaoA > populacaoB) {

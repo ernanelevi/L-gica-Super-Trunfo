@@ -89,6 +89,54 @@ int main()
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
+
+    printf("========== CARTA 1 ==========\n");
+
+    printf("Estado: %c\n", estado1);
+
+    printf("Código: %c%s\n", estado1, codigo1);
+
+    printf("Nome da Cidade: %s", n_cidade1);
+
+    printf("População: %d\n", populacao1);
+
+    printf("Área: %.2f Km²\n", area1);
+
+    printf("PIB: %.2f Bilhões de reais\n", pib1);
+
+    printf("Pontos Turísticos: %d\n", p_turisticos1);
+
+    printf("Densidade Populacional: %.2f hab/km²\n", d_populacional1);
+
+    printf("PIB per Capita: %.2f reais\n", pib_pc1);
+
+    printf("Super Poder: %.2f\n", s_poder1);
+
+    printf("========== CARTA 2 ==========\n");
+
+    printf("Estado: %c\n", estado2);
+
+    printf("Código: %c%s\n", estado2, codigo2);
+
+    printf("Nome da Cidade: %s", n_cidade2);
+
+    printf("População: %d\n", populacao2);
+
+    printf("Área: %.2f Km²\n", area2);
+
+    printf("PIB: %.2f Bilhões de reais\n", pib2);
+
+    printf("Pontos Turísticos: %d\n", p_turisticos2);
+
+    printf("Densidade Populacional: %.2f hab/km²\n", d_populacional2);
+
+    printf("PIB per Capita: %.2f reais\n", pib_pc2);
+
+    printf("Super Poder: %.2f\n", s_poder2);
+
+    // Exemplo:
+    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
+
     printf("========== COMPARAÇÃO ==========\n");
 
     if (populacao1 > populacao2)
@@ -159,52 +207,5 @@ int main()
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
-    printf("========== CARTA 1 ==========\n");
-
-    printf("Estado: %c\n", estado1);
-
-    printf("Código: %c%s\n", estado1, codigo1);
-
-    printf("Nome da Cidade: %s", n_cidade1);
-
-    printf("População: %d\n", populacao1);
-
-    printf("Área: %.2f Km²\n", area1);
-
-    printf("PIB: %.2f Bilhões de reais\n", pib1);
-
-    printf("Pontos Turísticos: %d\n", p_turisticos1);
-
-    printf("Densidade Populacional: %.2f hab/km²\n", d_populacional1);
-
-    printf("PIB per Capita: %.2f reais\n", pib_pc1);
-
-    printf("Super Poder: %.2f\n", s_poder1);
-
-    printf("========== CARTA 2 ==========\n");
-
-    printf("Estado: %c\n", estado2);
-
-    printf("Código: %c%s\n", estado2, codigo2);
-
-    printf("Nome da Cidade: %s", n_cidade2);
-
-    printf("População: %d\n", populacao2);
-
-    printf("Área: %.2f Km²\n", area2);
-
-    printf("PIB: %.2f Bilhões de reais\n", pib2);
-
-    printf("Pontos Turísticos: %d\n", p_turisticos2);
-
-    printf("Densidade Populacional: %.2f hab/km²\n", d_populacional2);
-
-    printf("PIB per Capita: %.2f reais\n", pib_pc2);
-
-    printf("Super Poder: %.2f\n", s_poder2);
-
-    // Exemplo:
-    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
-
     return 0;
 }
